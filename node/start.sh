@@ -4,8 +4,7 @@ cd /var/www
 rm -rf playing; true
 
 # install latest nodejs server
-git clone http://github.com/pphanireddy/playing playing
-cd playing
+git clone https://github.com/pphanireddy/playground.git
+cd playground/node
 npm install
-
 node index.js
